@@ -1,3 +1,5 @@
+char jogo[3][3];
+int l, c;
 
 //Iniciar Matriz
 void iniciarJogo(){
