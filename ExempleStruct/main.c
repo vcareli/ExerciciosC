@@ -49,11 +49,13 @@ Pessoa lerPessoa(){
 int main(){
     Pessoa pessoas[2][2];
 
-    for(int i = 0; i < 2; i++)
+    for(int i = 0; i < 2; i++){
         for(int j = 0; j < 2; j++)
             pessoas[i][j] = lerPessoa();
-    for(int i = 0; i < 2; i++)
+    }
+    for(int i = 0; i < 2; i++){
         for(int j = 0; j < 2; j++)
             imprimirPessoa(pessoas[i][j]);
+    }
     return 0;
 }
